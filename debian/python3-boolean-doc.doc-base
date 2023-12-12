@@ -1,0 +1,12 @@
+Document: boolean.py
+Title: boolean.py Manual
+Author: Sebastian Kraemer
+Abstract: This document provides an introduction on boolean.py usage.
+ It requires that you are already familiar with Python and know a little
+ bit about boolean algebra. All definitions and laws are stated in
+ Concepts and Definitions.
+Section: Programming/Python
+
+Format: HTML
+Index: /usr/share/doc/python3-boolean/html/index.html
+Files: /usr/share/doc/python3-boolean/html/*.html

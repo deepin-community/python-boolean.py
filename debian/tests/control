@@ -1,0 +1,5 @@
+Tests: pytest
+Depends:
+ python3-boolean,
+ python3-all,
+ python3-pytest,

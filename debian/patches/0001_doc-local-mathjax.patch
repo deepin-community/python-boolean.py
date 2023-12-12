@@ -1,0 +1,15 @@
+Description: use local MathJax installation
+Forwarded: not-needed
+Author: Stephan Lachnit <stephanlachnit@debian.org>
+--- a/docs/conf.py
++++ b/docs/conf.py
+@@ -175,6 +175,9 @@
+ # Output file base name for HTML help builder.
+ htmlhelp_basename = "booleanpydoc"
+ 
++# The path to the MathJax JavaScript file to include in the HTML files.
++mathjax_path = '/usr/share/javascript/mathjax/MathJax.js?config=TeX-AMS-MML_HTMLorMML'
++
+ # -- Options for LaTeX output --------------------------------------------------
+ 
+ # The paper size ('letter' or 'a4').

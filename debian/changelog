@@ -1,5 +1,50 @@
-template-repository (1.0-1) unstable; urgency=medium
+python-boolean.py (4.0-4) unstable; urgency=medium
 
-  * Initial release
+  [ Debian Janitor ]
+  * Apply multi-arch hints. + python3-boolean-doc: Add Multi-Arch: foreign.
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Fri, 14 Oct 2022 11:47:23 +0100
+
+python-boolean.py (4.0-3) unstable; urgency=medium
+
+  * Fix typo in suggests: python-boolean-doc -> python3-boolean-doc
+
+ -- Stephan Lachnit <stephanlachnit@debian.org>  Sun, 24 Jul 2022 15:15:26 +0200
+
+python-boolean.py (4.0-2) unstable; urgency=medium
+
+  * Source-only upload.
+  * Update standards version to 4.6.1, no changes needed.
+
+ -- Stephan Lachnit <stephanlachnit@debian.org>  Fri, 27 May 2022 12:09:24 +0200
+
+python-boolean.py (4.0-1) unstable; urgency=medium
+
+  * New upstream version 4.0
+
+ -- Stephan Lachnit <stephanlachnit@debian.org>  Tue, 10 May 2022 11:37:22 +0200
+
+python-boolean.py (3.8-4) unstable; urgency=medium
+
+  * add autopkgtest running pytest
+
+ -- Stephan Lachnit <stephanlachnit@debian.org>  Wed, 24 Nov 2021 15:37:47 +0100
+
+python-boolean.py (3.8-3) unstable; urgency=medium
+
+  * Fix watch file
+
+ -- Stephan Lachnit <stephanlachnit@debian.org>  Sat, 06 Nov 2021 17:39:18 +0100
+
+python-boolean.py (3.8-2) unstable; urgency=medium
+
+  * Source rename for consistency.
+  * Update standards version to 4.6.0.1, no changes needed.
+
+ -- Stephan Lachnit <stephanlachnit@debian.org>  Mon, 11 Oct 2021 16:38:47 +0200
+
+boolean.py (3.8-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #976117)
+
+ -- Stephan Lachnit <stephanlachnit@protonmail.com>  Sun, 29 Nov 2020 23:41:22 +0100
